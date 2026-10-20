@@ -11,7 +11,7 @@ def charger():
 model, scaler, model_name = charger()
 
 st.title("Classification d'images : Voiture ou Bateau")
-st.caption("Atelier de classification supervisée — Pr. Abdelouahed Sabri")
+st.caption("Atelier de classification supervisée")
 st.write(f"Modèle utilisé (le plus performant lors des tests) : **{model_name}**")
 
 fichier = st.file_uploader("Charger une image", type=["jpg", "jpeg", "png", "bmp"])
